@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "441710918810",
+    "firebase_url": "https://x7care3.firebaseio.com",
+    "project_id": "x7care3",
+    "storage_bucket": "x7care3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441710918810:android:660df72eb22db7b6",
+        "android_client_info": {
+          "package_name": "in.co.mismart.azim24x7care"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441710918810-m2lnoks04fo4nrjpohoooqgpookn65si.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.co.mismart.azim24x7care",
+            "certificate_hash": "bae06be3ad4ccf5c34a0ae42817c15286c37ab87"
+          }
+        },
+        {
+          "client_id": "441710918810-urjnqu3bbejosll8bqpa13l9fefsnfgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9fKOWul8_iET8WFpWfgp953a_CwzT6jo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441710918810-urjnqu3bbejosll8bqpa13l9fefsnfgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

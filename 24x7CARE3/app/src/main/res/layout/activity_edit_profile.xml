@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EditProfile">
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose File" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="SAVE" />
+    <TextView
+        android:id="@+id/text_view_show_uploads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Uploads"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/button_upload"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="58dp"
+        android:layout_alignParentBottom="true"/>
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/upload_table"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="8dp" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/profile_picture_bg"
+        android:layout_height="200dp"
+        android:layout_below="@id/button_choose_image"
+        android:layout_marginTop="16dp" />
+
+    <TableLayout
+        android:id="@+id/upload_table"
+        android:layout_below="@id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:background="@color/toolbar3_color"
+                android:text="Upload Toddler's Details"
+                android:textColor="@color/white"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/toddler_name"
+                android:layout_width="150dp"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:textColor="@color/profile_name"
+                android:background="@color/dark_gray"
+                android:text="Name" />
+            <EditText
+                android:id="@+id/edit_text_file_name"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:background="@color/gray"
+                android:layout_weight="1"
+                android:textColor="@color/profile_password"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/toddler_age"
+                android:layout_width="150dp"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:background="@color/gray"
+                android:text="Age"
+                android:textColor="@color/profile_password"
+                />
+            <EditText
+                android:id="@+id/upload_toddler_age"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:background="@color/dark_gray"
+                android:textColor="@color/profile_name"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/toddler_batch_no"
+                android:layout_width="150dp"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:background="@color/dark_gray"
+                android:text="Batch No"
+                android:textColor="@color/profile_name"
+                />
+            <EditText
+                android:id="@+id/upload_toddler_batch_no"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:background="@color/gray"
+                android:textColor="@color/profile_password"
+                android:layout_weight="1"/>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

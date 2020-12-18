@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical"
+    tools:context=".Services_Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar_color"
+        app:titleTextColor="@color/dgreen"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <Button
+            android:id="@+id/bnext5"
+            android:text=">"
+            android:textColor="@color/dgreen"
+            android:background="@color/toolbar_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_below="@id/tbServices"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/hours"
+            android:alpha="0.75"/>
+
+        <TextView
+            android:id="@+id/five_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/five"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="20dp"
+            android:text="5 hours"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/toolbar3_color"/>
+
+        <Button
+            android:id="@+id/twelve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="250dp"
+            android:layout_marginLeft="293dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/hours"
+            android:alpha="0.75"/>
+        <TextView
+            android:id="@+id/twelve_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/twelve"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="260dp"
+            android:text="12 hours"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/toolbar3_color"/>
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="135dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/hours"
+            android:alpha="0.75"/>
+        <TextView
+            android:id="@+id/eight_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eight"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginStart="140dp"
+            android:text="8 hours"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/toolbar3_color"/>
+
+        <Button
+            android:id="@+id/twenty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/five_text"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/hours"
+            android:alpha="0.75"/>
+        <TextView
+            android:id="@+id/twenty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/twenty"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="20dp"
+            android:text="20 hours"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/toolbar3_color"/>
+
+        <Button
+            android:id="@+id/forty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eight_text"
+            android:background="@drawable/hours"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="140dp"
+            android:alpha="0.75"/>
+
+        <TextView
+            android:id="@+id/forty_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/forty"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginStart="150dp"
+            android:text="40 hours"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/toolbar3_color"/>
+
+
+        <Button
+            android:id="@+id/night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/twelve"
+            android:layout_marginLeft="293dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginStart="250dp"
+            android:background="@drawable/night"
+            android:alpha="0.75"/>
+        <TextView
+            android:id="@+id/nigh_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/night"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="293dp"
+            android:layout_marginStart="260dp"
+            android:text="Night Care"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/toolbar3_color"/>
+
+        <Button
+            android:id="@+id/infant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/night"
+            android:layout_marginTop="52dp"
+            android:layout_marginLeft="293dp"
+            android:layout_marginStart="250dp"
+            android:background="@drawable/infant"
+            android:alpha="0.75"/>
+        <TextView
+            android:id="@+id/infant_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/infant"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginLeft="293dp"
+            android:text="infant package"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/toolbar3_color"/>
+
+        <Button
+            android:id="@+id/sunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/twenty_text"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/sunday"
+            android:alpha="0.75"/>
+        <TextView
+            android:id="@+id/sunday_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sunday"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="20dp"
+            android:text="Sunday"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/toolbar3_color"/>
+
+        <Button
+            android:id="@+id/toddler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/forty_text"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="135dp"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/toddler"
+            android:alpha="0.75"/>
+        <TextView
+            android:id="@+id/toddler_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toddler"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="150dp"
+            android:text="Toddler"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/toolbar3_color"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

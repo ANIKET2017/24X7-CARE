@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical"
+    tools:context="in.co.mismart.azim24x7care.Home_Activity">
+
+    <include
+        layout="@layout/app_bar"
+        android:id="@+id/app_bar"></include>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar2_color"
+        app:titleTextColor="@color/dgreen">
+
+        <Button
+            android:id="@+id/bnext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@color/toolbar2_color"
+            android:text=">"
+            android:textColor="@color/dgreen" />
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pa" />
+
+            <TextView
+                android:id="@+id/textpa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Play Area"
+                android:background="@color/toolbar3_color"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/profile_name_hint" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sp" />
+
+            <TextView
+                android:id="@+id/textsp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Swimming Pool"
+                android:background="@color/toolbar3_color"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/profile_last_name_hint" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/tv" />
+
+            <TextView
+                android:id="@+id/texttv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tower View"
+                android:background="@color/toolbar3_color"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/profile_name_hint" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/rd" />
+
+            <TextView
+                android:id="@+id/textrd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reception Desk"
+                android:background="@color/toolbar3_color"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/profile_password_hint" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/d" />
+
+            <TextView
+                android:id="@+id/textd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/toolbar3_color"
+                android:text="Drawing Room(Interior 01)"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/profile_confirm_password_hint" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/dd" />
+
+            <TextView
+                android:id="@+id/textdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drawing Room(Interior 02)"
+                android:background="@color/toolbar3_color"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/profile_email_hint" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ddd" />
+
+            <TextView
+                android:id="@+id/textddd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drawing Room(Interior 03)"
+                android:background="@color/toolbar3_color"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/dark_gray" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/dddd" />
+
+            <TextView
+                android:id="@+id/textdddd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Drawing Room(Interior 04)"
+                android:background="@color/toolbar3_color"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/orange" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/toolbar3_color"
+                android:text="Address:MiSmart,Crescent Solitiare,Mumbai 400078 \n Phone: +91 9137831552 \n info@mismart.co.in "
+                android:textColor="@color/profile_email"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">24x7 CARE</string>
+
+    <string name="address">MiSmart,Cresent Solitiare,Mumbai 400078</string>
+    <string name="phone">9137831552</string>
+    <string name="email">info@mismart.co.in</string>
+    <string name="website">mismart.co.in</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="video">Video</string>
+    <string name="logout">Logout</string>
+    <string name="plans">Services</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string name="fnameerr">Enter your name</string>
+    <string name="lnameerr">Enter surname</string>
+    <string name="emailerr">Enter valid email</string>
+    <string name="phoneerr">Enter valid phone number</string>
+    <string name="passerr">Enter password</string>
+    <string name="cnfpasserr">Password does not match</string>
+</resources>

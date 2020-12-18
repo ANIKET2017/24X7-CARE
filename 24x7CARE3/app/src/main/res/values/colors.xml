@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="toolbar_color">#96FA78</color>
+    <color name="vid">#57F52E</color>
+    <color name="toolbar2_color">#F50087</color>
+    <color name="toolbar3_color">#049797</color>
+    <color name="gray">#A9A9A9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="hint">#E6F183</color>
+    <color name="password_hint">#AADAAA</color>
+    <color name="password">#57A05C</color>
+    <color name="dgreen">#1F461D</color>
+    <color name="yellow">#F3940C</color>
+
+    <color name="btn_txt">#FFFFFF</color>
+    <color name="dark_gray">#4D4949</color>
+    <color name="dblue">#3F51B5</color>
+    <color name="orange">#F2E9C96A</color>
+
+    <color name="profile_name">#FA5346</color>
+    <color name="profile_last_name">#8BC34A</color>
+    <color name="profile_phone_number">#4E26C2</color>
+    <color name="profile_email">#A31151</color>
+    <color name="profile_password">#F5CE21</color>
+    <color name="profile_confirm_password">#147469</color>
+
+    <color name="profile_name_hint">#B7FF5E4F</color>
+    <color name="profile_last_name_hint">#ADBBE48F</color>
+    <color name="profile_phone_number_hint">#BE8EB3DB</color>
+    <color name="profile_email_hint">#5CAD1457</color>
+    <color name="profile_password_hint">#80FDD835</color>
+    <color name="profile_confirm_password_hint">#CB77F8EB</color>
+    <color name="save">#D21E60E5</color>
+</resources>

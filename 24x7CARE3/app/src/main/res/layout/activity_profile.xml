@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg4"
+    tools:context=".ProfileActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar_color"
+        app:titleTextColor="@color/dgreen"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <Button
+            android:id="@+id/bnext2"
+            android:text=">"
+            android:textColor="@color/dgreen"
+            android:background="@color/toolbar_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"/>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/etoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/toolbar2_color"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_profile"
+            android:layout_gravity="end"
+            android:text="edit"
+            android:background="@color/toolbar2_color"
+            android:textColor="@color/dgreen"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/show_image_upload"
+        android:layout_width="match_parent"
+        android:layout_below="@id/etoolbar"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <TableLayout
+        android:layout_below="@id/show_image_upload"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp">
+
+        <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:background="@color/toolbar2_color"
+            android:text="Toddler's Details"
+            android:textColor="@color/white"
+            android:layout_weight="1"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/toddler_name"
+                android:layout_width="150dp"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:textColor="@color/profile_name"
+                android:background="@color/colorPrimary"
+                android:text="Name" />
+            <TextView
+                android:id="@+id/show_toddler_name"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_weight="1"
+                android:textColor="@color/profile_password"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/toddler_age"
+                android:layout_width="150dp"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Age"
+                android:textColor="@color/profile_password"
+                />
+            <TextView
+                android:id="@+id/show_toddler_age"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/profile_name"
+                android:layout_weight="1"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/toddler_batch_no"
+                android:layout_width="150dp"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="Batch No"
+                android:textColor="@color/profile_name"
+                />
+            <TextView
+                android:id="@+id/show_toddler_batch_no"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/profile_password"
+                android:layout_weight="1"/>
+        </TableRow>
+    </TableLayout>
+
+
+    
+
+</LinearLayout>

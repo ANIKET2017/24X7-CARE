@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical"
+    tools:context=".SignUp_Activity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/profile_name"
+        android:textColorHint="@color/profile_name_hint" />
+
+    <EditText
+        android:id="@+id/etSur_name"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/etName"
+        android:layout_marginStart="50dp"
+        android:ems="10"
+        android:hint="Last name"
+        android:inputType="textPersonName"
+        android:textColor="@color/profile_last_name"
+        android:textColorHint="@color/profile_last_name_hint" />
+
+    <EditText
+        android:id="@+id/etPhone_number"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/etSur_name"
+        android:layout_marginStart="50dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColor="@color/profile_phone_number"
+        android:textColorHint="@color/profile_phone_number_hint" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/etPhone_number"
+        android:layout_marginStart="50dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/profile_email"
+        android:textColorHint="@color/profile_email_hint"
+        />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/etEmail"
+        android:layout_marginStart="50dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/profile_password"
+        android:textColorHint="@color/profile_password_hint" />
+
+    <!--<EditText
+        android:id="@+id/etConfirm_password"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/etPassword"
+        android:layout_marginStart="50dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="@color/profile_confirm_password"
+        android:textColorHint="@color/profile_confirm_password_hint" />-->
+
+
+    <TextView
+        android:id="@+id/tvAccept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/password"
+        android:text="By clicking on the Submit button, \n I accept terms and conditions."
+        android:layout_below="@id/etPassword"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/terms_and_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and conditions"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/tvAccept"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/btSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/terms_and_condition"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="140dp"
+        android:background="@drawable/signup247"
+        />
+
+    <ImageButton
+        android:id="@+id/btLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="145dp"
+        android:layout_below="@id/btSignup"
+        android:background="@drawable/login247"/>
+
+</RelativeLayout>
